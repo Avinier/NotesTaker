@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  color: wheat;
+}
+
+body {
+  margin: 0;
+  padding: 10px;
+  background: #222;
+  overflow: hidden;
+  min-width: 40rem;
+}
+
+input {
+  width: 100%;
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+}
+
+li a {
+  color: #f5ce62;
+}
+li a:active,
+li a:visited {
+  color: #ff3d02;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1.5rem;
+}
+
+li {
+  margin-top: 0.3rem;
+}
+
+button {
+  position: relative;
+  width: 15rem;
+  height: 4rem;
+  margin-bottom: 0.5rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 30px;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.btn--save {
+  content: "";
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  top: -25px;
+  left: -20px;
+  background: linear-gradient(75deg, #fa7199, #f5ce62, #ff3d02);
+  z-index: -1;
+  /* transition: transform 0.5s ease; */
+}
+
+#tab-btn {
+  background: linear-gradient(75deg, #fa7199, #f5ce62, #ff3d02);
+  background-size: 400%;
+}
+
+.btn--delete {
+  border: 2px solid #fcdf90;
+}
+
+.btn--delete:hover {
+  box-shadow: none;
+  background: linear-gradient(75deg, #fcdf90, #ff3d02);
+  background-size: 400%;
+}
+
+button:hover {
+  box-shadow: 2px -2px 8px 0 #fa7199, -2px 2px 8px 0 #f5ce62;
+}
+
+/* @keyframes glow {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
+} */
